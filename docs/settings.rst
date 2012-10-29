@@ -154,6 +154,13 @@ Default: ``userena/profile_detail.html`` (string)
 Template to use for rendering user profiles. This allows you to specify a
 template in your own project which extends ``userena/profile_detail.html``.
 
+USERENA_PROFILE_LIST_TEMPLATE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Default: ``userena/profile_detail.html`` (string)
+
+Template to use for rendering users list. This allows you to specify a
+template in your own project which extends ``userena/profile_list.html``.
+
 USERENA_DISABLE_PROFILE_LIST
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Default: ``False`` (boolean)
